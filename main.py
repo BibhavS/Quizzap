@@ -1,8 +1,8 @@
 # A Simple Quiz Game made by Bibhav Shrestha Run the program to play
 from operations import playGame
 
-print("\nWelcome to Quizzy Game")
-print("A simple quiz game created by Bibhav Shrestha\n\n")
+print("\n\tWelcome to Quizzap")
+print("A Simple Quiz Game created by Bibhav Shrestha\n\n")
 
 print("Start the game!!!\n")
 
