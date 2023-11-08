@@ -1,12 +1,8 @@
-from data import question_data  
-from data import answers
+# A Simple Quiz Game made by Bibhav Shrestha Run the program to play
+from operations import playGame
 
-def playGame():
-    print("\nFive Questions will be presented to you and score will be calculated on a scale of 100\n")
-    
-
-print("\tWelcome to Quizzy")
-print("A quiz game created by Bibhav Shrestha\n\n")
+print("\nWelcome to Quizzy Game")
+print("A simple quiz game created by Bibhav Shrestha\n\n")
 
 print("Start the game!!!\n")
 
@@ -14,7 +10,7 @@ flag = True
 
 while(flag):
     print("\nType 'YES' or 'NO'\n")
-    choice = input("-->")
+    choice = input("--> ")
 
     if choice == "YES":
        playGame()
@@ -27,4 +23,4 @@ while(flag):
        print("\nPlease enter appropriate response")
 
 
-print("\nThank you for your time!!!")
+print("\nThank you for your playing my game\n")
